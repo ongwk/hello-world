@@ -1,0 +1,54 @@
+.sequence 11 10 9 8 7 6 t1 5 4 3 2 1 0 t0
+.timingset 1
+
+X X 1 X X 0 0 1 X X X X 1 0 //SYNC =1
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0 //10
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0 //20
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0 //30
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0 //40
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0
+X X 1 X X 0 0 1 X X X X 1 0 //50

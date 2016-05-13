@@ -1,0 +1,75 @@
+.sequence 11 10 9 8 7 6 t1 5 4 3 2 1 0 t0
+.timingset 2
+
+X X X X X X 0 X 0 X 0 0 X 0  //p1_reg1<7:4> Gain14  
+X X X X X X 0 X 0 X 0 0 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //RW 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 1 1 X 0  //S0 
+X X X X X X 0 X 1 X 1 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //S1 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //S2 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 1 1 X 0  //A0 
+X X X X X X 0 X 1 X 1 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //A1 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //A2 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //A3 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //D0 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //D1 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //D2 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //D3 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 0 1 X 0  //D4 
+X X X X X X 0 X 1 X 0 1 X 0   
+X X X X X X 0 X 0 X 1 1 X 0  //D5 
+X X X X X X 0 X 1 X 1 1 X 0   
+X X X X X X 0 X 0 X 1 1 X 0  //D6 
+X X X X X X 0 X 1 X 1 1 X 0   
+X X X X X X 0 X 0 X 1 1 X 0  //D7 
+X X X X X X 0 X 1 X 1 1 X 0   
+X X X X X X 0 X 0 X 0 0 X 0  // END
+X X X X X X 0 X 0 X 0 0 X 0  
+X X X X X X 0 X 0 X 0 0 X 0  //p3_reg6_FORCEFASTREC_b2_0  
+X X X X X X 0 X 0 X 0 0 X 0   
+X X X X X X 0 X 0 X 0 1 X 0	 //RW
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 1 1 X 0	 //S0
+X X X X X X 0 X 1 X 1 1 X 0
+X X X X X X 0 X 0 X 1 1 X 0	 //S1
+X X X X X X 0 X 1 X 1 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //S2
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //A0
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 1 1 X 0	 //A1
+X X X X X X 0 X 1 X 1 1 X 0
+X X X X X X 0 X 0 X 1 1 X 0	 //A2
+X X X X X X 0 X 1 X 1 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //A3
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D0
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D1
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D2
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D3
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D4
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D5
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D6
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 1 X 0	 //D7
+X X X X X X 0 X 1 X 0 1 X 0
+X X X X X X 0 X 0 X 0 0 X 0	 //END
+X X X X X X 0 X 0 X 0 0 X 0     

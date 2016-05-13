@@ -1,0 +1,17 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<tvar version="3.6.2.1465" createddate="2016-05-12 11:11:14Z" assmbuilddate="2015-12-11 16:38:51Z">
+  <flow name="SS294502E1_55">
+    <variablecollection>
+      <variable name="UUT">
+        <datatype>Int64</datatype>
+        <prefix>None</prefix>
+        <value>0</value>
+      </variable>
+      <variable name="CommitResult">
+        <datatype>Boolean</datatype>
+        <prefix>None</prefix>
+        <value>True</value>
+      </variable>
+    </variablecollection>
+  </flow>
+</tvar>

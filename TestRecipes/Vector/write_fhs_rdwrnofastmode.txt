@@ -1,0 +1,147 @@
+.sequence 11 10 9 8 7 6 t1 5 4 3 2 1 0 t0
+.timingset 2
+
+X X X X X X 0 X 0 X 0 0 1 0  //p2_reg12 <7:6>(FHSMaskTime)=3 
+X X X X X X 0 X 0 X 0 0 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //RW 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //S1 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A2 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A3 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //D3 //FHSBiasHalf_LSB=1_(127)
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D4 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D5 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //D6 FHSMaskTime0
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //D7 FHSMaskTime1
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 0 1 0  // END
+X X X X X X 0 X 0 X 0 0 1 0 
+X X X X X X 0 X 0 X 0 0 1 0  //p2_reg4 FHS_EN=0 
+X X X X X X 0 X 0 X 0 0 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //RW 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //S1 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A2 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A3 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D3 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D4 //FHS_en_0
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D5 //FHSRdAndWr=0
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D6 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D7 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 0 1 0  // END 
+X X X X X X 0 X 0 X 0 0 1 0
+X X X X X X 0 X 0 X 0 0 1 0  //p2_reg15  
+X X X X X X 0 X 0 X 0 0 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //RW 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //S1 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A0 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A1 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A2 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A3 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D0 mode_1=0
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D3 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D4 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D5 mode_0=0 (Fast Mode disabled)
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D6 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D7 FHSWrRdN=0 (don't care)
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 0 1 0  // END 
+X X X X X X 0 X 0 X 0 0 1 0 
+X X X X X X 0 X 0 X 0 0 1 0  //p2_reg4  
+X X X X X X 0 X 0 X 0 0 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //RW 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //S1 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //S2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //A2 
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //A3 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D0 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D1 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D2 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D3 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //D4 //FHS_en_1
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 1 1 1 0  //D5 //FHSRdAndWr=1
+X X X X X X 0 X 1 X 1 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D6 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 1 1 0  //D7 
+X X X X X X 0 X 1 X 0 1 1 0   
+X X X X X X 0 X 0 X 0 0 1 0  // END 
+X X X X X X 0 X 0 X 0 0 1 0

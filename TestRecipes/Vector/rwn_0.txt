@@ -1,0 +1,4 @@
+.sequence 11 10 9 8 7 6 t1 5 4 3 2 1 0 t0
+.timingset 1
+                
+X X X X X X 0 X X X X X 0 0
